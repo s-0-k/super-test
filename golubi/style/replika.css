@@ -1,0 +1,57 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.g-container
+{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.g-button
+{
+    border: 1px solid #598d66;
+    padding: 20px 60px;
+    width: 227px;
+    height: 65px;
+    background-color: transparent;
+}
+
+.replika
+{
+    display: flex;
+}
+
+.replika__advertising
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.replika__img img
+{
+    min-height: 540px;
+}
+
+.replika__advertising-title
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 110%;
+    color: #2c2d35;
+}
+
+.replika__advertising-description
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #86928b;
+    margin-bottom: 60px;
+}

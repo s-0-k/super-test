@@ -1,0 +1,120 @@
+.reproduction__logo
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.reproduction__goods
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.reproduction__goods-card
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #e1ede6;
+    margin-top: auto;
+    height: 100%;
+}
+
+.reproduction__goods-card .g-button
+{
+    width: 100%;
+}
+
+.button--reproduction
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #598d66;
+}
+
+.reproduction__goods-card-name
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #86928b;
+    margin-bottom: 10px;
+}
+
+.reproduction__goods-card-title
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    color: #2c2d35;
+    margin-bottom: 8px;
+}
+
+.reproduction__goods-card-description
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #2c2d35;
+    margin-bottom: 30px;
+}
+
+.reproduction__goods-card-price
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: #598d66;
+    margin-bottom: 20px;
+}
+
+.reproduction__goods-card-img
+{
+    width: 100%;
+}
+
+.reproduction__logo-title
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    color: #2c2d35;
+}
+
+.reproduction__logo-nav a
+{
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 126px;
+    height: 43px;
+    background: #376b44;
+    text-decoration: none;
+    color: #f4f6f5;
+}
+
+.reproduction__logo-nav a:not(:last-child)
+{
+    margin-right: 32px;
+}
+
+.reproduction__logo-nav .reproduction__logo-nav--white
+{
+    background-color: #d4e8d9;
+    font-family: var(--font-family);
+    font-weight: 500;
+    /* font-size: 20px; */
+    color: #2c2d35;
+}
+
+.replika__img img
+{
+    /* max-width: 100%;
+    height: auto; */
+}
+
+

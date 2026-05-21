@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-family: "Raleway", sans-serif;
+}
+
+
+header
+{
+    width: 100%;
+    background-color: #e1ede6;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 165px;
+}
+
+.header__logo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 8px;
+}
+
+.header__logo-title
+{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #598d66;
+}
+
+.header__nav
+{
+    display: flex;
+}
+
+form
+{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 38px;
+    margin-bottom: 39px;
+}
+
+form a
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+    text-decoration: none;
+    cursor: pointer;
+}
